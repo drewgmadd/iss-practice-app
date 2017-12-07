@@ -1,0 +1,55 @@
+/*GENERAL STYLES*/
+
+.upcomingLaunches {
+  position:  fixed center;
+  margin-top: 30px;
+  transform: translateY(-50%);
+  width: 80%;
+  background-color: rgba(17, 47, 102, .7);
+  border-radius: 15px;
+  box-shadow: 15px 15px 35px rgba(17, 47, 102, .7);
+  transition: .3s all ease-in-out .5s;
+  line-height: 15px;
+}
+.upcomingLaunches:hover {
+  background-color: rgba(80, 36, 120, .5);
+  box-shadow: -15px -15px 35px rgba(80, 36, 120, .5);
+}
+.launch-container {
+  margin-top: 110px;
+}
+
+/*LAUNCH ITEM STYLES*/
+
+.launch-info {
+  font-size: 15px;
+  color: #4adc00;
+  margin-left: 8px;
+  display: inline-block;
+}
+
+/*BUTTON STYLES*/
+
+.launch {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  bottom: 20px;
+  height: 55px;
+  width: 100px;
+  box-shadow: 15px 15px 35px rgba(17, 47, 102, .7);
+  transition: .3s all ease-in-out .5s;
+  cursor: pointer;
+}
+.launch:hover {
+  box-shadow: -15px -15px 35px rgba(80, 36, 120, .5);
+}
+
+/*IMAGE STYLES*/
+
+.rocket {
+  height: 400px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  border-radius: 15px;
+}

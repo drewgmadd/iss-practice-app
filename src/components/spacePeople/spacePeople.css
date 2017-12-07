@@ -1,0 +1,68 @@
+/*GENERAL STYLES*/
+
+.spacePeople {
+  position:  fixed center;
+  margin-top: 300px;
+  transform: translateY(-50%);
+  height: 360px;
+  width: 280px;
+  background-color: rgba(17, 47, 102, .7);
+  border-radius: 15px;
+  box-shadow: 15px 15px 35px rgba(17, 47, 102, .7);
+  text-align: center;
+  transition: .6s all ease-in-out .5s;
+}
+.spacePeople:hover {
+  background-color: rgba(80, 36, 120, .5);
+  box-shadow: -15px -15px 35px rgba(80, 36, 120, .5);
+}
+
+/*LIST STYLES*/
+
+.list {
+  height: 225px;
+  width: 230px;
+  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 15px;
+  box-shadow: 15px 15px 35px rgba(17, 47, 102, .7);
+  color: #4adc00;
+}
+.person {
+  margin-top: 10px;
+}
+
+/*QUESTION STYLES*/
+
+.question {
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, .7);
+  border-radius: 15px;
+  box-shadow: 15px 15px 35px rgba(17, 47, 102, .7);
+  color: #4adc00;
+}
+.button {
+  margin-top: 10px;
+  margin-right: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: #4adc00;
+}
+
+/*IMAGE STYLES*/
+
+.astronaut {
+  transform: rotate();
+  height: 225px;
+  width: 230px;
+  border-radius: 15px;
+}

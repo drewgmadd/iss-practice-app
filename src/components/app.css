@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  background-image: url("https://static.pexels.com/photos/110854/pexels-photo-110854.jpeg");
+  background-size: cover;
+}
